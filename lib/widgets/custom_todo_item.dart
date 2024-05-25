@@ -23,7 +23,7 @@ class TodoItem extends StatelessWidget {
                 width: 2,
                 color: taskController.isDarktheme
                     ? Colors.white
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
               ),
               borderRadius: BorderRadius.circular(8),
             ),
@@ -44,7 +44,7 @@ class TodoItem extends StatelessWidget {
                               : Icons.check_box_outline_blank,
                           color: taskController.isDarktheme
                               ? Colors.white
-                              : CustomColors.splashScreenBackground,
+                              : CustomColors.instaPurple,
                         ),
                       ),
                       Column(
@@ -58,11 +58,11 @@ class TodoItem extends StatelessWidget {
                                   : null,
                               decorationColor: taskController.isDarktheme
                                   ? Colors.white
-                                  : CustomColors.splashScreenBackground,
+                                  : CustomColors.instaPurple,
                               decorationThickness: 3.5,
                               color: taskController.isDarktheme
                                   ? Colors.white
-                                  : CustomColors.splashScreenBackground,
+                                  : CustomColors.instaPurple,
                               fontWeight: FontWeight.w700,
                               fontSize: 20,
                             ),
@@ -78,11 +78,11 @@ class TodoItem extends StatelessWidget {
                                     : null,
                                 decorationColor: taskController.isDarktheme
                                     ? Colors.white
-                                    : CustomColors.splashScreenBackground,
+                                    : CustomColors.instaPurple,
                                 decorationThickness: 4,
                                 color: taskController.isDarktheme
                                     ? Colors.white
-                                    : CustomColors.splashScreenBackground,
+                                    : CustomColors.instaPurple,
                                 fontWeight: FontWeight.w400,
                                 fontSize: 15,
                               ),
@@ -95,7 +95,7 @@ class TodoItem extends StatelessWidget {
                               style: TextStyle(
                                 color: taskController.isDarktheme
                                     ? Colors.white
-                                    : CustomColors.splashScreenBackground,
+                                    : CustomColors.instaPurple,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14,
                               ),
@@ -106,7 +106,7 @@ class TodoItem extends StatelessWidget {
                                     fontSize: 12,
                                     color: taskController.isDarktheme
                                         ? Colors.white
-                                        : CustomColors.splashScreenBackground,
+                                        : CustomColors.instaPurple,
                                   ),
                                 ),
                               ],
@@ -130,7 +130,7 @@ class TodoItem extends StatelessWidget {
                       Icons.delete_outline_outlined,
                       color: taskController.isDarktheme
                           ? Colors.white
-                          : CustomColors.splashScreenBackground,
+                          : CustomColors.instaPurple,
                     ),
                   ),
                 ],

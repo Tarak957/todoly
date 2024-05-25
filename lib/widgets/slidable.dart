@@ -44,7 +44,7 @@ class CustomSlidableWidget extends StatelessWidget {
                     BorderRadius.horizontal(right: Radius.circular(8)),
                 backgroundColor: taskController.isDarktheme
                     ? Colors.white
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
                 foregroundColor:
                     taskController.isDarktheme ? Colors.black : Colors.white,
                 icon: Icons.close,
@@ -64,7 +64,7 @@ class CustomSlidableWidget extends StatelessWidget {
                 borderRadius: BorderRadius.horizontal(left: Radius.circular(8)),
                 backgroundColor: taskController.isDarktheme
                     ? Colors.white
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
                 foregroundColor:
                     taskController.isDarktheme ? Colors.black : Colors.white,
                 icon: Icons.close,

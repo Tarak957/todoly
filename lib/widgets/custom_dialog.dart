@@ -26,7 +26,7 @@ class CustomDialog extends StatelessWidget {
                 fontSize: 20,
                 color: taskController.isDarktheme
                     ? Colors.black
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -67,7 +67,7 @@ class CustomDialog extends StatelessWidget {
                     Get.snackbar(
                       colorText: taskController.isDarktheme
                           ? Colors.black
-                          : CustomColors.splashScreenBackground,
+                          : CustomColors.instaPurple,
                       duration: const Duration(seconds: 1),
                       isDismissible: true,
                       dismissDirection: DismissDirection.horizontal,
@@ -93,7 +93,7 @@ class CustomDialog extends StatelessWidget {
               },
               fillColor: taskController.isDarktheme
                   ? Colors.black
-                  : CustomColors.splashScreenBackground,
+                  : CustomColors.instaPurple,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12)),
               child: Padding(
@@ -115,7 +115,7 @@ class CustomDialog extends StatelessWidget {
               },
               fillColor: taskController.isDarktheme
                   ? Colors.black
-                  : CustomColors.splashScreenBackground,
+                  : CustomColors.instaPurple,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12)),
               child: const Padding(

@@ -36,7 +36,7 @@ class _MainScreenState extends State<MainScreen> {
             toolbarHeight: 100,
             backgroundColor: taskController.isDarktheme
                 ? Colors.grey[900]
-                : CustomColors.splashScreenBackground,
+                : CustomColors.instaPurple,
             title: Padding(
               padding: const EdgeInsets.only(left: 8),
               child: AnimatedTextKit(
@@ -126,7 +126,7 @@ class _MainScreenState extends State<MainScreen> {
             child: FloatingActionButton.extended(
               backgroundColor: taskController.isDarktheme
                   ? Colors.white
-                  : CustomColors.splashScreenBackground,
+                  : CustomColors.instaPurple,
               label: Text(
                 'Add New Task',
                 style: TextStyle(

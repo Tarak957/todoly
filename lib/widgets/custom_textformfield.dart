@@ -28,13 +28,13 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
           style: TextStyle(
               color: taskController.isDarktheme
                   ? Colors.black
-                  : CustomColors.splashScreenBackground),
+                  : CustomColors.instaPurple),
           decoration: InputDecoration(
             labelText: widget.label,
             labelStyle: TextStyle(
               color: taskController.isDarktheme
                   ? Colors.black
-                  : CustomColors.splashScreenBackground,
+                  : CustomColors.instaPurple,
             ),
             fillColor: Colors.white,
             filled: true,
@@ -44,7 +44,7 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
                 width: 2,
                 color: taskController.isDarktheme
                     ? Colors.black
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
               ),
             ),
             enabledBorder: OutlineInputBorder(
@@ -53,7 +53,7 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
                 width: 2,
                 color: taskController.isDarktheme
                     ? Colors.black
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
               ),
             ),
             focusedBorder: OutlineInputBorder(
@@ -62,7 +62,7 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
                 width: 2,
                 color: taskController.isDarktheme
                     ? Colors.black
-                    : CustomColors.splashScreenBackground,
+                    : CustomColors.instaPurple,
               ),
             ),
           ),
