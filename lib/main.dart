@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todoly/constants/init_controllers.dart';
 import 'package:todoly/controllers/task.dart';
-import 'package:todoly/screens/main_screen.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todoly/screens/splash_screen.dart';
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: SplashScreenPage(),
-      // home: MainScreen(),
     );
   }
 }

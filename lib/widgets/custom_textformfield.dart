@@ -21,7 +21,9 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
     return GetBuilder<TaskController>(
       builder: (taskController) {
         return TextFormField(
-          inputFormatters: [LengthLimitingTextInputFormatter(widget.length)],
+          inputFormatters: [
+            LengthLimitingTextInputFormatter(widget.length),
+          ],
           controller: widget.controller,
           style: TextStyle(
               color: taskController.isDarktheme

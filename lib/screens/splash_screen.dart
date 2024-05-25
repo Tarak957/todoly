@@ -17,9 +17,12 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 5), () {
-      Get.off(() => const MainScreen());
-    });
+    Timer(
+      const Duration(seconds: 2),
+      () {
+        Get.off(() => const MainScreen());
+      },
+    );
   }
 
   @override
@@ -42,21 +45,6 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
                   fontWeight: FontWeight.bold,
                 ),
                 speed: const Duration(milliseconds: 80),
-              ),
-              ColorizeAnimatedText(
-                speed: const Duration(milliseconds: 200),
-                'T o d o l y',
-                textStyle: const TextStyle(
-                  fontSize: 45,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'Horizon',
-                ),
-                colors: [
-                  Colors.purple,
-                  Colors.blue,
-                  Colors.yellow,
-                  Colors.red,
-                ],
               ),
             ],
             isRepeatingAnimation: true,
