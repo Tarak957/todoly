@@ -10,8 +10,8 @@ class CustomSlidableWidget extends StatelessWidget {
   const CustomSlidableWidget({
     required this.index,
     required this.child,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +41,7 @@ class CustomSlidableWidget extends StatelessWidget {
               SlidableAction(
                 onPressed: (context) {},
                 borderRadius:
-                    BorderRadius.horizontal(right: Radius.circular(8)),
+                    const BorderRadius.horizontal(right: Radius.circular(8)),
                 backgroundColor: taskController.isDarktheme
                     ? Colors.white
                     : CustomColors.instaPurple,
@@ -61,7 +61,7 @@ class CustomSlidableWidget extends StatelessWidget {
             children: [
               SlidableAction(
                 onPressed: (context) {},
-                borderRadius: BorderRadius.horizontal(left: Radius.circular(8)),
+                borderRadius: const BorderRadius.horizontal(left: Radius.circular(8)),
                 backgroundColor: taskController.isDarktheme
                     ? Colors.white
                     : CustomColors.instaPurple,

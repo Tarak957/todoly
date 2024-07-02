@@ -88,7 +88,7 @@ class TodoItem extends StatelessWidget {
                               ),
                             ),
                           ),
-                          SizedBox(height: 4),
+                          const SizedBox(height: 4),
                           RichText(
                             text: TextSpan(
                               text: 'Date : ',

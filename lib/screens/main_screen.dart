@@ -73,18 +73,18 @@ class _MainScreenState extends State<MainScreen> {
                         showDialog(
                           context: context,
                           builder: (context) {
-                            return CustomDialog(
+                            return const CustomDialog(
                               title: 'Permanently delete all ?',
                             );
                           },
                         );
                       },
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.delete_outline_rounded,
                         color: Colors.white,
                       ),
                     )
-                  : SizedBox()
+                  : const SizedBox()
             ],
           ),
           body: taskController.sortedTasks.isEmpty
@@ -140,7 +140,7 @@ class _MainScreenState extends State<MainScreen> {
                 showDialog(
                   context: context,
                   builder: (context) {
-                    return CustomDialog(
+                    return const CustomDialog(
                       title: 'Enter Title and Task',
                       isAddTask: true,
                     );

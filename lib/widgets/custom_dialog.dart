@@ -48,7 +48,7 @@ class CustomDialog extends StatelessWidget {
                     )
                   ],
                 )
-              : SizedBox(),
+              : const SizedBox(),
           actionsAlignment: MainAxisAlignment.center,
           actionsPadding: const EdgeInsets.only(bottom: 16),
           actions: [
@@ -97,10 +97,10 @@ class CustomDialog extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12)),
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Text(
                   isAddTask! ? 'ADD' : 'YES',
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w800,
                   ),
